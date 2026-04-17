@@ -1084,7 +1084,7 @@ function createPages() {
             }
         } else {
             const endImg = document.createElement('img');
-            endImg.src = './image/theend.jpg';
+            endImg.src = './image/photos/b10.png';
             endImg.onerror = function () {
                 back.classList.add('empty-page');
                back.textContent = t('endOfBook');
